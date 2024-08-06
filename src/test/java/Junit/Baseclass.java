@@ -38,8 +38,13 @@ public class Baseclass {
     public  static void browserclose(){
 
         driver.close();
-    }
 
+
+
+    }
+    public static void quit(){
+        driver.quit();
+    }
 
 
 
